@@ -1,2 +1,3 @@
 esta es una prueba mas usando git 
-ejecutando git desde PC-Oficina 
+ejecutando git desde PC-Oficina
+se realizo comando por VSC encontrando error al momento de hacer el GIT PUSH en ventana de comando 
