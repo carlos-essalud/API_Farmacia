@@ -1,3 +1,4 @@
 esta es una prueba mas usando git 
 ejecutando git desde PC-Oficina
 se realizo comando por VSC encontrando error al momento de hacer el GIT PUSH en ventana de comando 
+realizando cambios en oficina 26.09.2022
