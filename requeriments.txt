@@ -1,0 +1,2 @@
+preparando archivo de requerimientos
+para el uso de Djando
