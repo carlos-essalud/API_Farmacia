@@ -1,6 +1,9 @@
-from django.urls import path
-from .views import home
+from django.conf.urls import url
+from .views import post_list
 
 urlpatterns = [
-    path('index/', home),
+    #url('home',home)
+
+    #Aqui estamos trayendo data de la BD usando la vista post_List
+    url('home',post_list),
 ]

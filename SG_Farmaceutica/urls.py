@@ -20,5 +20,5 @@ from .views import inicio
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hola/',inicio),
-    path('epp_api/', include('epp_api.urls')),
+    path('epp_api/', include('epp_api.urls'))
 ]

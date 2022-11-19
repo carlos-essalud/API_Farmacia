@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} Posts {% endblock %}
+{% block content %}
+<div class="jumbotron">
+    {% for p in posts %}
+      <h2>Titulo: {{ p.title }}</h2>
+       <p> Autor : {{ p.author }}
+           Contenido: {{ p.body }}
+           Estado: {{ p.status }} 
+       </p>
+    {% endfor %}
+    {% include "post/paginator.html" with page=posts %}
+</div>
+{% endblock %}
